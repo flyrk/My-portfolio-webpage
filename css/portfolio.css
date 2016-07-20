@@ -1,0 +1,62 @@
+p {
+    color: brown;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    color: darkviolet;
+}
+
+.cut {
+    font-size: 30px;
+    color: darksalmon;
+}
+body {
+    background-color: #db99ff;
+}
+
+.navbar {
+    background-color: deepskyblue;
+}
+#about {
+    margin: 0px;
+    padding: 50px;
+    background-color: #c4c8ff;
+}
+
+#portfolio {
+    margin: 0px;
+    padding: 50px;
+    background-color: #c4c8ff;
+}
+
+#contact {
+    margin: 0px;
+    padding: 50px;
+    background-color: #c4c8ff;
+}
+
+#portrait {
+    border-radius: 50%;
+    text-align: right;
+}
+
+input {
+    background-color: #c4c8ff;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+}
+
+[name="message"] {
+    width: 200px;
+    height: 150px;
+}
