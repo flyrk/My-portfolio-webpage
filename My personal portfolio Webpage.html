@@ -3,85 +3,89 @@
 <head>
     <meta charset = "utf-8">
     <title>My Personal Portfolio Webpage</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel = "stylesheet" type = "text/css" media = "screen" href = "css/portfolio.css" />
-    <script src="jQuery/jquery-3.0.0.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src = "scripts/portfolio_webpage.js"></script>
+    <link rel="stylesheet" href="css/burbonstyle.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class = "container-fluid">
-        <nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">
-            <div>
-                <ul class = "nav navbar-nav">
-                    <li><a href = "#about">About</a></li>
-                    <li><a href = "#portfolio">Portfolio</a></li>
-                    <li><a href = "#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+  
+  <input type="checkbox" id="sidebartoggler"/>
+  
+  <div class="page-wrap">
+    <label for="sidebartoggler" class="toggle">☰</label>
+          
+    <div class="page-content">
+      <div id = "about">
+          <h2 class = "text-center">About me</h2>
+          <p class = "text-center cut">-----------------------------------------</p>
+          <div class = "row">
+              <div class = "col-md-8">
+                  <p>Hi! I'm a college student right now. I'm only a rookie in Front End Development area.</p>
+                  <p>Although I haven't make any project or website,I'm confident with the future after my study in FreeCodeCamp.
+                 I build this website not only to improve my code skills but also to show myself. I hope people can know more
+                 about me through this little page.</p>
+                  <p>This is my first completed webpage which is filled with mistakes,but I will take it as start station to the
+                 next level.</p>
+              </div>
+              <div class = "col-md-4">
+                  <img class = "portrait img-responsive" src = "http://p1.wmpic.me/article/2014/12/26/1419556263_tZwXheCt.jpeg"/>
+              </div>
+          </div>
+      </div>
 
-        <div id = "about">
-            <h2 class = "text-center">About me</h2>
-            <p class = "text-center cut">-----------------------------------------</p>
-            <div class = "row">
-                <div class = "col-md-8">
-                    <p>Hi! I'm a college student right now. I'm only a rookie in Front End Development area.</p>
-                    <p>Although I haven't make any project or website,I'm confident with the future after my study in FreeCodeCamp.
-                   I build this website not only to improve my code skills but also to show myself. I hope people can know more
-                   about me through this little page.</p>
-                    <p>This is my first completed webpage which is filled with mistakes,but I will take it as start station to the
-                   next level.</p>
-                </div>
-                <div class = "col-md-4">
-                    <img class = "portrait img-responsive" src = "http://p1.wmpic.me/article/2014/12/26/1419556263_tZwXheCt.jpeg"/>
-                </div>
-            </div>
-        </div>
+      <div id = "portfolio">
+          <h2 class = "text-center">Portfolio</h2>
+          <p class = "text-center cut">-----------------------------------------</p>
+          <h3 class = "text-center">Here are some pages made by me. Keep updating...</h3>
+          <div class = "row">
+              <div class = "col-md-6">
+                  <img src = "Go_index.png" class = "img-responsive"/>
+              </div>
+              <div class = "col-md-6">
+                  <img src = "Tribute Page.png" class = "img-responsive"/>
+              </div>
+          </div>
+      </div>
 
-        <div id = "portfolio">
-            <h2 class = "text-center">Portfolio</h2>
-            <p class = "text-center cut">-----------------------------------------</p>
-            <h3 class = "text-center">Here are some pages made by me. Keep updating...</h3>
-            <div class = "row">
-                <div class = "col-md-6">
-                    <img src = "Go_index.png" class = "img-responsive"/>
-                </div>
-                <div class = "col-md-6">
-                    <img src = "Tribute Page.png" class = "img-responsive"/>
-                </div>
-            </div>
-        </div>
-
-        <div id = "contact">
-            <h2 class ="text-center">Contact me</h2>
-            <p class = "text-center cut">-----------------------------------------</p>
-            <div class = "row">
-                <div class = "col-md-6">
-                    <input type = "text" name = "name" placeholder = "Name" required />
-                    <br/>
-                    <br/>
-                    <input type = "text" name = "sex" placeholder = "Male/Female" required />
-                    <br/>
-                    <br/>
-                    <input type = "text" name = "email" placeholder = "Email" required />
-                    <br/>
-                    <br/>
-                    <input type = "text" name = "message" placeholder = "Message" required />
-                    <br/>
-                    <br/>
-                    <button id = "send" type = "button">Send</button>
-                </div>
-                <div class = "col-ms-6">
-                    <p>If you have any question or good advices on me,welcome to get in touch with me.<br/>
-                    I will be so happy to get your feedback and you can also contact with me talking about Sports or any
-                    thing else. I will be your honest listener!</p>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <p class = "text-center">&copy All Rights Reversed</p>
-        </footer>
+      <div id = "contact">
+          <h2 class ="text-center">Contact me</h2>
+          <p class = "text-center cut">-----------------------------------------</p>
+          <div class = "row">
+              <div class = "col-md-6">
+                  <input type = "text" name = "name" placeholder = "Name" required />
+                  <br/>
+                  <br/>
+                  <input type = "text" name = "sex" placeholder = "Male/Female" required />
+                  <br/>
+                  <br/>
+                  <input type = "text" name = "email" placeholder = "Email" required />
+                  <br/>
+                  <br/>
+                  <input type = "text" name = "message" placeholder = "Message" required />
+                  <br/>
+                  <br/>
+                  <button id = "send" type = "button">Send</button>
+              </div>
+              <div class = "col-ms-6">
+                  <p>If you have any question or good advices on me,welcome to get in touch with me.<br/>
+                  I will be so happy to get your feedback and you can also contact with me talking about Sports or any
+                  thing else. I will be your honest listener!</p>
+              </div>
+          </div>
+      </div>
+      <footer>
+          <p class = "text-center">&copy All Rights Reversed</p>
+      </footer>
     </div>
+    
+    <div class="sidebar">
+      <ul>
+        <li><a href = "#about">About</a></li>
+        <li><a href = "#portfolio">Portfolio</a></li>
+        <li><a href = "#contact">Contact</a></li>
+      </ul>
+    </div>
+</div>
 </boby>
 </html>

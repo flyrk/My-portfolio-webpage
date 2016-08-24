@@ -14,12 +14,9 @@ h2 {
     color: darksalmon;
 }
 body {
-    background-color: #db99ff;
+    background-color: #c4c8ff;
 }
 
-.navbar {
-    background-color: deepskyblue;
-}
 #about {
     margin: 0px;
     padding: 50px;
