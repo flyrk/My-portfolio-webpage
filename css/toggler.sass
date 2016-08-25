@@ -8,7 +8,11 @@ label
   position: relative
   z-index: 0
   margin-left: 0px
-  +transform()
+  +transition()
+  +transform(scale(1))
+  +transform-origin(right center)
+  height: 100%
+  overflow: scroll
   
 .toggle
   text-decoration: none
@@ -16,7 +20,7 @@ label
   +position(fixed, 20px 0 0 20px)
   z-index: 1
   color: black
-  +transform()
+  +transition()
   
 .sidebar
   +position(fixed, 0px 0 0 -150px)
@@ -24,7 +28,7 @@ label
   padding: 20px
   background: #333
   z-index: 0
-  +transform()
+  +transition()
   
   li
     margin-bottom: 16px
@@ -45,4 +49,4 @@ label
     .toggle
       left: 150px
     .page-content
-      margin-left: 130px
+      +transform(scale(0.7))

@@ -14,23 +14,26 @@ h2 {
     color: darksalmon;
 }
 body {
-    background-color: #c4c8ff;
+    background-image: url("http://www.psdgraphics.com/file/fresh-green-background.jpg");
 }
 
 #about {
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 50px;
     background-color: #c4c8ff;
 }
 
 #portfolio {
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 50px;
     background-color: #c4c8ff;
 }
 
 #contact {
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 50px;
     background-color: #c4c8ff;
 }
